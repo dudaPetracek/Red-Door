@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+FR+Moderne&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title ">Red Door</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-bar" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o Bar
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div> 
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-bar">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="imagens/carousel/bar.png" alt="foto do bar">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/carousel/bar2.jpg" alt="foto do bar">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/carousel/bar3.jpg" alt="foto do bar">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <botton type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></botton>
+                    <botton type="button" data-bs-target="#carousel" data-bs-slide-to="1"></botton>
+                    <botton type="button" data-bs-target="#carousel" data-bs-slide-to="2"></botton>
+                </div>
+            </div>
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 img-sobre-o-bar">
+                                <img src="imagens/sobre o local/sobre o bar.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do bar">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title">Sobre <span class="text-colored">o Bar</span></h2>
+                                <p>
+                                    Bem-vindo ao Red Door, onde boa música, drinks e um ambiente acolhedor se encontram para criar momentos inesquecíveis. Com uma equipe pronta para te receber com simpatia, o nosso bar é o lugar ideal para relaxar, socializar e desfrutar de coquetéis preparados com excelência.
+                                </p>
+                                <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                                <p>
+                                    O espaço do Bar Refúgio foi pensado para proporcionar conforto e descontração. Com uma decoração contemporânea e toques rústicos, perfeito para encontros com a galera, e um amplo rspaço interno, ideal para quem quer aproveitar o clima enquanto degusta nossos drinks e petiscos especiais.
+                                </p>
+                                <ul>
+                                    <li>Balada</li>
+                                    <li>Bar</li>
+                                    <li>DJ</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nossos <span class="text-colored">Eventos</span></h2>
+                </div>
+                <div class="row mt-4 bar">
+                    <div class="col-md-4">
+                        <img src="imagens/eventos/aniversario.avif" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversário
+                        </h3>
+                        <p>
+                            Celebre seu aniversário no Red Door com estilo! Oferecemos um ambiente acolhedor, cardápio personalizado e drinks exclusivos para garantir que sua festa seja memorável. Nossa equipe cuida de todos os detalhes para você aproveitar cada momento com os amigos e familiares.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/eventos/confraternizacao.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            confraternização
+                        </h3>
+                        <p>
+                            Organize sua confraternização no Red Door e desfrute de um espaço ideal para reunir colegas e amigos. Com opções de petiscos, bebidas especiais e pacotes personalizados, garantimos uma experiência descontraída e agradável, perfeita para momentos de celebração e interação.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/eventos/formatura.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Formatura
+                        </h3>
+                        <p>
+                            Comemore sua conquista em grande estilo no Red Door! Oferecemos espaço amplo, decoração especial, além de menus de drinks e coquetéis personalizados para sua festa de formatura ser inesquecível. É o lugar ideal para reunir amigos e familiares em uma noite de comemoração.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5 cardapio">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">Cardápio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored active">Bebidas Alcóolicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-nao-alcoolicas" class="fw-bold text-start nav-link text-colored">Bebidas Não Alcóolicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#doses" class="fw-bold text-start nav-link text-colored">Doses</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#porcoes" class="fw-bold text-start nav-link text-colored">Porções</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hamburguer" class="fw-bold text-start nav-link text-colored">Hambúrguer</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas alcoolicas/caipirinha.jpg" alt="caipirinha">
+                                        <h5 class="text-colored fw-bold mt-2">Caipirinha</h5>
+                                        <p>
+                                            Ingredientes: Cachaça, limão, açúcar e gelo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas alcoolicas/mojito.png"alt="mojito">
+                                        <h5 class="text-colored fw-bold mt-2">Mojito</h5>
+                                        <p>
+                                            Ingredientes: Rum branco, hortelã, limão, açúcar, água com gás e gelo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas alcoolicas/whiskey sour.jpg" alt="whiskey">
+                                        <h5 class="text-colored fw-bold mt-2">Whiskey Sour</h5>
+                                        <p>
+                                            Ingredientes: Uísque, suco de limão, açúcar e clara de ovo (opcional). 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas alcoolicas/sex on the beach.jpg" alt="sex-on-the-beach">
+                                        <h5 class="text-colored fw-bold mt-2">Sex on the Beach</h5>
+                                        <p>
+                                            Ingredientes: Vodka, licor de pêssego, suco de cranberry e suco de laranja. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens//cardapio/bebidas alcoolicas/tequila sunrise.jpg" alt="tequila-sunrise">
+                                        <h5 class="text-colored fw-bold mt-2">Tequila Sunrise</h5>
+                                        <p>
+                                            Ingredientes: Tequila, suco de laranja e grenadine.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas alcoolicas/blood mary.jpg" alt="blood-mary">
+                                        <h5 class="text-colored fw-bold mt-2">Blood Mary</h5>
+                                        <p>
+                                            Ingredientes: Vodka, suco de tomate, suco de limão, molho inglês, pimenta e sal. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas alcoolicas/manhattan.jpg" alt="manhattan">
+                                        <h5 class="text-colored fw-bold mt-2">Manhattan</h5>
+                                        <p>
+                                            Ingredientes: Uísque, vermute tinto e bitters.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas alcoolicas/pina colada.jpg" alt="pina-colada">
+                                        <h5 class="text-colored fw-bold mt-2">Pinã Colada</h5>
+                                        <p>
+                                            Ingredientes: Rum branco, creme de coco, suco de abacaxi e gelo.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-nao-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas nao alcoolicas/Soda italiana maca verde.jpg" alt="soda-italiana-maca-verde">
+                                        <h5 class="text-colored fw-bold mt-2">Soda Italiana de Maçã Verde</h5>
+                                        <p>
+                                            Ingredientes: Xarope de maçã verde, água com gás, gelo e fatias de maçã verde.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas nao alcoolicas/pina colada virgem.jpg" alt="pina-colada-virgem">
+                                        <h5 class="text-colored fw-bold mt-2">Piña Colada Virgem</h5>
+                                        <p>
+                                            Ingredientes: Suco de abacaxi, creme de coco e gelo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas nao alcoolicas/mojito virgem.png" alt="mojito-virgem">
+                                        <h5 class="text-colored fw-bold mt-2">Mojito Virgem</h5>
+                                        <p>
+                                            Ingredientes: Hortelã, suco de limão, açúcar, água com gás e gelo. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas nao alcoolicas/smoothie de morango.jpg" alt="smoothie-de-morango">
+                                        <h5 class="text-colored fw-bold mt-2">Smoothie de Morango</h5>
+                                        <p>
+                                            Ingredientes: Morango, iogurte natural, mel e gelo. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas nao alcoolicas/smoothie de framboesa.jpg" alt="smoothie-de-framboesa">
+                                        <h5 class="text-colored fw-bold mt-2">Smoothie de Framboesa</h5>
+                                        <p>
+                                            Ingredientes: Framboesa, iogurte natural, mel e gelo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas nao alcoolicas/pink limonade.jpg" alt="pink-limonade">
+                                        <h5 class="text-colored fw-bold mt-2">Pink Lemonade</h5>
+                                        <p>
+                                            Ingredientes: Suco de limão, suco de cranberry, açúcar e gelo. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas nao alcoolicas/frape de cafe.jpg" alt="frape-de-cafe">
+                                        <h5 class="text-colored fw-bold mt-2">Frapê de Café</h5>
+                                        <p>
+                                            Ingredientes: Café, leite, gelo e açúcar.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/bebidas nao alcoolicas/coca-cola.jpg" alt="coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                                        <p>
+                                            Ingredientes: Coca-Cola, gelo e limão
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="doses">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/doses/tequila.jpg" alt="Dose">
+                                        <h5 class="text-colored fw-bold mt-2">Dose de Tequila</h5>
+                                        <p>
+                                            Bebida destilada feita de agave, geralmente servida com sal e limão para acompanhar. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/doses/whisky.jpg" alt="Dose-de-whisky">
+                                        <h5 class="text-colored fw-bold mt-2">Dose de Whisky</h5>
+                                        <p>
+                                            Destilado feito a partir de cereais fermentados, podendo ser de malte ou blended.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/doses/run.jpg" alt="Dose-de-run">
+                                        <h5 class="text-colored fw-bold mt-2">Dose de Run</h5>
+                                        <p>
+                                            Bebida destilada à base de cana-de-açúcar ou melaço, servida pura.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/doses/amarula.jpg" alt="Dose-de-amarula">
+                                        <h5 class="text-colored fw-bold mt-2">Dose de Amarula</h5>
+                                        <p>
+                                            Licor cremoso sul-africano feito a partir do fruto da marula, com sabor doce e suave. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/doses/cafe.jpg" alt="Dose-de-cafe">
+                                        <h5 class="text-colored fw-bold mt-2">Dose de Café</h5>
+                                        <p>
+                                            Café expresso preparado com grãos frescos e moídos na hora, com açucar (opcional).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="porcoes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/porçoes/batata frita.jpg" alt="batata-frita">
+                                        <h5 class="text-colored fw-bold mt-2">Batata Frita</h5>
+                                        <p>
+                                            Ingredientes: Batatas cortadas em palitos, fritas em óleo quente e sal. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/porçoes/polenta frita.png" alt="polenta-frita">
+                                        <h5 class="text-colored fw-bold mt-2">Polenta Frita</h5>
+                                        <p>
+                                            Ingredientes: Polenta cortadas em palitos, fritas em óleo quente e sal. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/porçoes/aneis de cebola.jpg" alt="aneis-de-cebola">
+                                        <h5 class="text-colored fw-bold mt-2">Anéis de Cebola</h5>
+                                        <p>
+                                            Ingredientes: Cebola cortadas em rodelas, fritas em óleo quente e sal. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/porçoes/nuggets.png" alt="nuggets">
+                                        <h5 class="text-colored fw-bold mt-2">Nuggets</h5>
+                                        <p>
+                                            Ingredientes: Carne de frango moída, farinha de trigo, ovo, sal, pimenta, temperos variados e farinha de rosca.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/porçoes/empanado de camarao.jpg" alt="empanado-de-camarao">
+                                        <h5 class="text-colored fw-bold mt-2">Empanado de Camarão</h5>
+                                        <p>
+                                            Ingredientes: Camarão limpo, farinha de trigo, ovo, sal, pimenta, alho, limão e farinha de rosca. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/porçoes/empanado de queijo.jpg" alt="empanado-de-queijo">
+                                        <h5 class="text-colored fw-bold mt-2">Empanado de Queijo</h5>
+                                        <p>
+                                            Ingredientes: Queijo mussarela ou provolone, farinha de trigo, ovo, sal, pimenta e farinha de rosca. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/porçoes/bolinho de bacalhau.jpg" alt="bolinho-de-bacalhau">
+                                        <h5 class="text-colored fw-bold mt-2">Bolinho de Bacalhau</h5>
+                                        <p>
+                                            Ingredientes: Bacalhau desfiado, batata, salsa, alho, cebola e farinha de rosca. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/porçoes/bacon e ovos.jpg" alt="bacon-e-ovos">
+                                        <h5 class="text-colored fw-bold mt-2">Bacon e ovos</h5>
+                                        <p>
+                                            Ingredientes: Fatias de bacon, ovos, sal, pimenta e orégano. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="hamburguer">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/hamburgueres/fumaça do texas.jpg" alt="hamburguer">
+                                        <h5 class="text-colored fw-bold mt-2">Fumaça do Texas</h5>
+                                        <p>
+                                            Ingredientes: Hambúrguer de carne bovina, queijo cheddar, bacon crocante, cebola caramelizada, molho barbecue e picles.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/hamburgueres/dulce pecado.jpg" alt="hamburguer">
+                                        <h5 class="text-colored fw-bold mt-2">Dulce Pecado</h5>
+                                        <p>
+                                            Ingredientes: Hambúrguer de carne bovina, queijo brie, cebola caramelizada, geleia de pimenta e rúcula. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/hamburgueres/baconzila.jpg" alt="hamburguer">
+                                        <h5 class="text-colored fw-bold mt-2">Baconzila</h5>
+                                        <p>
+                                            Ingredientes: Hambúrguer de carne bovina, queijo cheddar, cinco fatias de bacon crocante, alface e maionese de bacon.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/hamburgueres/big bang burger.jpg" alt="hamburguer">
+                                        <h5 class="text-colored fw-bold mt-2">Big Bang Burger</h5>
+                                        <p>
+                                            Ingredientes: Dois hambúrgueres de carne bovina, queijo cheddar duplo, bacon, ovo frito, alface e molho especial.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/hamburgueres/rota66.png" alt="hamburguer">
+                                        <h5 class="text-colored fw-bold mt-2">Rota 66</h5>
+                                        <p>
+                                            Ingredientes: Hambúrguer de carne bovina, queijo cheddar, cebola empanada, bacon e molho barbecue. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/hamburgueres/brasa na mesa.png" alt="hamburguer">
+                                        <h5 class="text-colored fw-bold mt-2">Brasa na Mesa</h5>
+                                        <p>
+                                            Ingredientes: Hambúrguer de picanha, queijo coalho grelhado, bacon, vinagrete e maionese de alho.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/hamburgueres/explosao de queijo.jpg" alt="hamburguer">
+                                        <h5 class="text-colored fw-bold mt-2">Explosão de Queijo</h5>
+                                        <p>
+                                            Ingredientes: Hambúrguer de carne bovina, alface, tomate, queijo cheddar, queijo prato, queijo gorgonzola, cream cheese.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/cardapio/hamburgueres/verde saudavel.jpg" alt="hamburguer">
+                                        <h5 class="text-colored fw-bold mt-2">Verde Saudável</h5>
+                                        <p>
+                                            Ingredientes: Hambúrguer de grão-de-bico, abacate, alface, tomate, cebola roxa, pepino e molho pesto(vegetariano).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="text" id="nome" class="form-control" requerid>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links"> 
+                                <li class="fs-5 ms-1 me-1 ">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Avenida Dose Dupla, 007 - Bairro Noite Sem Fim, Região dos Shots, RS 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
